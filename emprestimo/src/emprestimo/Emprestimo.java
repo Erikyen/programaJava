@@ -18,8 +18,9 @@ public class Emprestimo {
         taxa = 0.02;
         
         //processamento
+       
+        result = emp*(Math.pow(1+taxa).temp);
         
-        result = emp*(Math.pow(1+taxa),temp);
         
         //saida
         System.out.println("Ao final de"+temp+"meses, voce pagará: R$"+result);
